@@ -1,0 +1,166 @@
+<?php
+	ini_set('display_errors',1);
+	error_reporting(E_ALL);
+	include ("connect.php");
+
+	@$today_d = date ("Y-m-d");
+	@$today_w = date ("W");
+	@$today_m = date ("Y-m");
+	@$today_Y = date ("Y");
+	$currensy = 1;
+	$bundle = "pay_in";
+
+#Сумма приходов, запланированных на сегодня
+	$sql_pr_usd_d = "SELECT SUM(`field_summ_pay_value`) AS sum_pr_d
+			FROM field_data_field_summ_pay
+			WHERE bundle = \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_d%\"
+				)
+			    )";
+	if ($res_pr_usd_d = mysql_query($sql_pr_usd_d))
+		{$row_pr_usd_d = mysql_fetch_array($res_pr_usd_d);
+		$pr_usd_d = $row_pr_usd_d['sum_pr_d'];}
+	else $pr_usd_d = "Ничего нет";
+	
+#Сумма приходов, запланированных на эту неделю
+	$sql_pr_usd_w = "SELECT SUM(`field_summ_pay_value`) AS sum_pr_w
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"pay_in\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id, field_date_value  DATE_FORMAT(field_date_value, 'W') AS pr_usd_w
+				FROM field_data_field_date
+				WHERE pr_usd_w = \"$today_w\"
+				)
+			    )";
+	if ($res_pr_usd_d = mysql_query($sql_pr_usd_d))
+		{$row_pr_usd_d = mysql_fetch_array($res_pr_usd_d);
+		 $pr_usd_d = $row_pr_usd_d['sum_pr_w'];}
+	else $pr_usd_d = "Ничего нет";									**
+	
+#Сумма приходов, запланированных на этот месяц
+	$sql_pr_usd_m = "SELECT SUM(`field_summ_pay_value`) AS sum_pr_m
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_m%\"
+				)
+			    )";
+	if ($res_pr_usd_m = mysql_query($sql_pr_usd_m))
+		{$row_pr_usd_m = mysql_fetch_array($res_pr_usd_m);
+		 $pr_usd_m = $row_pr_usd_m['sum_pr_m'];}
+	else $pr_usd_m = "Ничего нет";
+	
+#Сумма приходов, запланированных на этот год
+	$sql_pr_usd_Y = "SELECT SUM(`field_summ_pay_value`) AS sum_pr_Y
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_Y%\"
+				)
+			    )";
+	if ($res_pr_usd_Y = mysql_query($sql_pr_usd_Y))
+		{$row_pr_usd_Y = mysql_fetch_array($res_pr_usd_Y);
+		 $pr_usd_Y = $row_pr_usd_Y['sum_pr_Y'];}
+	else $pr_usd_Y = "Ничего нет";
+	
+
+	$bundle = "pay";
+#Сумма платежей, запланированных на сегодня
+	$sql_pl_usd_d = "SELECT SUM(`field_summ_pay_value`) AS sum_pl_d
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_d%\"
+				)
+			    )";
+	if ($res_pl_usd_d = mysql_query($sql_pl_usd_d))
+		{$row_pl_usd_d = mysql_fetch_array($res_pl_usd_d);
+		 $pl_usd_d = $row_pl_usd_d['sum_pl_d'];}
+	else $pl_usd_d = "Ничего нет";
+	
+#Сумма платежей, запланированных на эту неделю
+	$sql_pl_usd_w = "SELECT SUM(`field_summ_pay_value`) AS sum_pl_w
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id, field_date_value  DATE_FORMAT(field_date_value, 'W') AS pl_usd_w
+				FROM field_data_field_date
+				WHERE pl_usd_w = \"$today_w\"
+				)
+			    )";
+	if ($res_pl_usd_w = mysql_query($sql_pl_usd_w))
+		{$row_pl_usd_w = mysql_fetch_array($res_pl_usd_w);
+		 $pl_usd_w = $row_pl_usd_w['sum_pl_w'];}
+	else $pl_usd_w = "Ничего нет";					**
+	
+#Сумма платежей, запланированных на этот месяц
+	$sql_pl_usd_m = "SELECT SUM(`field_summ_pay_value`) AS sum_pl_m
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_m%\"
+				)
+			    )";
+	if ($res_pl_usd_m = mysql_query($sql_pl_usd_m))
+		{$row_pl_usd_m = mysql_fetch_array($res_pl_usd_m);
+		 $pl_usd_m = $row_pl_usd_m['sum_pl_m'];}
+	else $pl_usd_m = "Ничего нет";
+	
+#Сумма платежей, запланированных на этот год
+	$sql_pl_usd_Y = "SELECT SUM(`field_summ_pay_value`) AS sum_pl_Y
+			FROM  field_data_field_summ_pay 
+			WHERE  bundle =  \"$bundle\"
+			AND  entity_id 
+			IN (SELECT  entity_id
+			    FROM  field_data_field_currency
+			    WHERE field_currency_tid = \"$currensy\"
+			    AND entity_id
+			    IN (SELECT entity_id
+				FROM field_data_field_date
+				WHERE field_date_value LIKE \"$today_Y%\"
+				)
+			    )";
+	if ($res_pl_usd_Y = mysql_query($sql_pl_usd_Y))
+		{$row_pl_usd_Y = mysql_fetch_array($res_pl_usd_Y);
+		 $pl_usd_Y = $row_pl_usd_Y['sum_pl_Y'];}
+	else $pl_usd_Y = "Ничего нет";				 			**/
+?>

@@ -1,0 +1,152 @@
+[Wed Aug 08 18:29:06 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 18:30:35 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 18:40:38 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 18:51:37 2012] [error] [client 192.168.0.35] PHP Warning:  POST Content-Length of 19083387 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://192.168.0.36/phpmyadmin/server_import.php?token=945020553c05e60f75fdeb157587f032
+[Wed Aug 08 19:13:29 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/node, referer: http://drup/
+[Wed Aug 08 19:13:29 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:24:22 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/node, referer: http://drup/
+[Wed Aug 08 19:24:22 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:24:28 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/js, referer: http://drup/
+[Wed Aug 08 19:24:31 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/user, referer: http://drup/
+[Wed Aug 08 19:24:31 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:24:42 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/js, referer: http://drup/
+[Wed Aug 08 19:24:59 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/user, referer: http://drup/
+[Wed Aug 08 19:25:00 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:25:08 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/js, referer: http://drup/
+[Wed Aug 08 19:25:18 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/import, referer: http://drup/
+[Wed Aug 08 19:25:18 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:27:35 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/public_html/favicon.ico
+[Wed Aug 08 19:33:08 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Wed Aug 08 19:33:10 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Wed Aug 08 19:33:10 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Wed Aug 08 19:40:29 2012] [error] (2)No such file or directory: could not open transfer log file /home/www/zerglyn/drup/logs/access.log.
+[Wed Aug 08 19:43:14 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/www/drup/www/js, referer: http://drup/
+[Wed Aug 08 19:43:18 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/www/drup/www/contact, referer: http://drup/
+[Wed Aug 08 19:43:18 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/www/drup/www/favicon.ico
+[Wed Aug 08 19:43:31 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/www/drup/www/node, referer: http://drup/
+[Wed Aug 08 19:43:31 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/www/drup/www/favicon.ico
+[Wed Aug 08 19:48:10 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/js, referer: http://drup/
+[Wed Aug 08 19:48:16 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/contact, referer: http://drup/
+[Wed Aug 08 19:48:16 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/favicon.ico
+[Wed Aug 08 19:48:39 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/contact, referer: http://drup/
+[Wed Aug 08 19:48:40 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/favicon.ico
+[Wed Aug 08 19:48:45 2012] [error] [client 192.168.0.35] File does not exist: /home/zerglyn/drup/www/js, referer: http://drup/
+[Thu Aug 09 08:54:02 2012] [error] [client 192.168.0.126] File does not exist: /home/zerglyn/drup/www/money_out, referer: http://drup/node/65
+[Thu Aug 09 08:54:02 2012] [error] [client 192.168.0.126] File does not exist: /home/zerglyn/drup/www/favicon.ico
+[Thu Aug 09 17:47:44 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:47:45 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:48:09 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:53:47 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:54:00 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:54:03 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:54:03 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:54:05 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:54:05 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:54:07 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/user, referer: http://drup/
+[Thu Aug 09 17:54:07 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:54:14 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:54:28 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:54:37 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/user, referer: http://drup/
+[Thu Aug 09 17:54:37 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:54:53 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:55:08 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:55:19 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/js, referer: http://drup/
+[Thu Aug 09 17:56:20 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:56:20 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:56:33 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:56:33 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:58:14 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:58:14 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Thu Aug 09 17:58:18 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Thu Aug 09 17:58:18 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:19:00 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:19:00 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:19:48 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:32:21 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:32:21 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:32:24 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:32:24 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:32:42 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/user, referer: http://drup/
+[Fri Aug 10 09:32:42 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:32:48 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:32:48 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:34:43 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:34:44 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 09:34:56 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/node, referer: http://drup/
+[Fri Aug 10 09:34:56 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:56:37 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481, referer: http://drup/?q=admin/config/development/maintenance
+[Fri Aug 10 11:56:37 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:56:37 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:56:44 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:56:52 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481, referer: http://drup/?q=admin/config/development/maintenance
+[Fri Aug 10 11:56:56 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481, referer: http://drup/update.php?op=info
+[Fri Aug 10 11:56:57 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:56:57 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:22 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:22 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:57:22 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:27 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:27 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:57:27 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:36 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:39 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:39 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:57:39 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:57:58 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:58:00 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 11:58:02 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 11:58:02 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:05:33 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 1010, referer: http://drup/update.php?op=selection&token=oVbfwTYyTWwQQTClHNub47R6Lfs3s-FKPuPvdxDvRW0
+[Fri Aug 10 12:05:33 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:05:34 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:05:46 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61, referer: http://drup/update.php?op=selection&token=oVbfwTYyTWwQQTClHNub47R6Lfs3s-FKPuPvdxDvRW0
+[Fri Aug 10 12:05:46 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:05:46 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:05:55 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61
+[Fri Aug 10 12:05:55 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:05:55 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:10:05 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:14:56 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:14:56 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:14:57 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:14:59 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:14:59 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:15:00 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:15:11 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61
+[Fri Aug 10 12:15:41 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61
+[Fri Aug 10 12:15:41 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:15:41 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:15:48 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:15:48 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:15:49 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:17:42 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:17:42 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:17:42 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:17:47 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:17:48 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:17:57 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61
+[Fri Aug 10 12:17:57 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:17:57 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:30:59 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/views/views.module on line 61
+[Fri Aug 10 12:30:59 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Fri Aug 10 12:30:59 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Fri Aug 10 12:31:03 2012] [error] [client 192.168.0.35] PHP Fatal error:  Call to undefined function ctools_include() in /home/www/drup/www/sites/all/modules/context/context.module on line 481
+[Mon Aug 13 12:05:56 2012] [error] [client 192.168.0.108] File does not exist: /home/www/drup/www/favicon.ico, referer: http://drup/sites/default/files/dogovor/filefield_2bSK7L.txt
+[Mon Aug 13 12:18:45 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 14 09:26:51 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 14 10:21:30 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 14 10:30:05 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 14 12:06:22 2012] [error] [client 192.168.0.10] File does not exist: /home/www/drup/www/favicon.ico, referer: http://drup/node/8
+[Tue Aug 14 12:33:14 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 14 15:55:47 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Wed Aug 15 10:25:40 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Wed Aug 15 13:10:09 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Mon Aug 20 09:27:01 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 21 14:14:05 2012] [error] [client 192.168.0.35] PHP Notice:  Undefined variable: today_Y in /home/www/drup/www/php/br/pl_br_w.php on line 21, referer: http://drup/node/8
+[Tue Aug 21 14:14:05 2012] [error] [client 192.168.0.35] PHP Notice:  Undefined variable: today_Y in /home/www/drup/www/php/br/pr_br_w.php on line 21, referer: http://drup/node/8
+[Tue Aug 21 14:16:22 2012] [error] [client 192.168.0.35] PHP Notice:  Undefined variable: today_Y in /home/www/drup/www/php/br/pl_br_w.php on line 21
+[Tue Aug 21 14:16:22 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 21 14:17:31 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 21 14:17:45 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico
+[Tue Aug 21 14:17:53 2012] [error] [client 192.168.0.35] PHP Notice:  Undefined variable: today_Y in /home/www/drup/www/php/br/pr_br_w.php on line 21, referer: http://drup/node/8
+[Tue Aug 21 14:43:50 2012] [error] [client 192.168.0.35] File does not exist: /home/www/drup/www/favicon.ico

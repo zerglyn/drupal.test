@@ -1,0 +1,6 @@
+<?php
+	ini_set('display_errors',1);
+	error_reporting(E_ALL);
+	include ("rur_summ.php");
+	echo $pr_rur_d;				 
+?>
